@@ -9,59 +9,73 @@
     text-align: center;
     background: #FFF;
     padding: 0px 20px 20px 20px;
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 25%;
+    margin-right: 25%;
   }
-  
-  figcaption {
-    margin-top: 15px;
+
+  h1 {
+    font-size: 1.75rem;
+    font-weight: bold;
+    padding: 20px;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 15px;
+  }
+
+  h3 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding: 15px;
+  }
+
+  p {
+    padding: 10px;
   }
   
   img {
-    max-width: 100%;
+    max-width: 98%;
     display: block;
     margin: auto;
-  }
-  
-  #img-div {
-    background: rgb(220, 220, 220);
-    padding: 20px;
-    margin-left: 15%;
-    margin-right: 15%;
-  }
-  
-  #image {
+    border: 4px;
     border-style: solid;
-    border-color: rgb(25, 65, 110);
+    border-color: #092962;
+    border-radius: 4px;
+  }
+
+  footer {
+    font-family: Helvetica, sans-serif;
+    font-size: 10px;
+    text-align: center;
+    color: #FFF;
+    padding: 5px;
   }
   
-  #logo-div {
+  .img-div {
     background: rgb(220, 220, 220);
     padding: 20px;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 4px;
+    border-radius: 4px;
   }
-  
-  #tribute-info {
+
+  #top {
+    font-family: Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    color: #FFF;
+    background-color: #092962;
+    position: fixed;
+    bottom: 10px;
+    float: right;
+    right: 18.5%;
+    left: 77.25%;
+    max-width: 75px;
+    width: 100%;
     padding: 10px;
-    border-style: solid;
-    border-color: rgb(25, 65, 110);
-  }
-  
-  @media (max-width: 600px) {
-    main {
-    margin-left: 7%;
-    margin-right: 7%;
-    }
-    
-    #img-div {
-    margin-left: 3%;
-    margin-right: 3%;
-    }
-    
-    #logo-div {
-    margin-left: 5%;
-    margin-right: 5%;
-    }
+    border-radius: 4px;
   }
   
