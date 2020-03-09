@@ -9,8 +9,7 @@
     text-align: center;
     background: #FFF;
     padding: 0px 20px 20px 20px;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin: 0px 25% 0px 25%;
   }
 
   h1 {
@@ -31,7 +30,7 @@
     padding: 15px;
   }
 
-  p {
+  p, ul, ol {
     padding: 10px;
   }
   
@@ -45,6 +44,10 @@
     border-radius: 4px;
   }
 
+  ul li {
+    display: inline;
+  }
+
   footer {
     font-family: Helvetica, sans-serif;
     font-size: 10px;
@@ -54,10 +57,10 @@
   }
   
   .img-div {
-    background: rgb(220, 220, 220);
+    background: #DCDCDC;
     padding: 20px;
-    margin-left: 10%;
     margin-right: 10%;
+    margin-left: 10%;
     border: 4px;
     border-radius: 4px;
   }
